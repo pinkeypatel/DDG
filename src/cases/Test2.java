@@ -15,7 +15,7 @@ public WebDriver driver;
 				driver = new ChromeDriver();
 				driver.manage().window().maximize();				
 				driver.get("https://www.youtube.com/");
-				Thread.sleep(2000);
+				Thread.sleep(5000);
 				driver.close();
 				
 				}
